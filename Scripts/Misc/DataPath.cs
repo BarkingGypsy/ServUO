@@ -14,7 +14,7 @@ namespace Server.Misc
         * Example:
         *  private static string CustomPath = @"C:\Program Files\Ultima Online";
         */
-        private static readonly string CustomPath = Config.Get("DataPath.CustomPath", null);
+        private static string CustomPath = @"C:\Users\adsum_000\Desktop\Dead Oceans\Client";
         private static readonly bool IgnoreStandardPaths = Config.Get("DataPath.IgnoreStandardPaths", false);
         /* The following is a list of files which a required for proper execution:
         * 

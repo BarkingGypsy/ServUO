@@ -1,11 +1,11 @@
 <Settings>
-  <PalaceOfParoxysmus active="true" />
-  <TwistedWeald active="true" />
-  <BlightedGrove active="true" />
-  <Bedlam active="true" />
-  <PrismOfLight active="true" />
+  <PalaceOfParoxysmus active="false" />
+  <TwistedWeald active="false" />
+  <BlightedGrove active="false" />
+  <Bedlam active="false" />
+  <PrismOfLight active="false" />
   <PaintedCaves active="true" />
-  <Citadel active="true" />
+  <Citadel active="false" />
   <Labyrinth active="true" />
   <Sanctuary active="true" />
   <StygianDragonLair active="true" />
