@@ -2638,6 +2638,11 @@
     <Compile Include="Mobiles\NPCs\Zeefzorpul.cs" />
     <Compile Include="Quests\WitchApprentice\Objectives.cs" />
     <Compile Include="Quests\WitchApprentice\WitchApprenticeQuest.cs" />
+    <Compile Include="Race &amp; Class System\ClassGump.cs" />
+    <Compile Include="Race &amp; Class System\PCraftGump.cs" />
+    <Compile Include="Race &amp; Class System\RaceGump.cs" />
+    <Compile Include="Race &amp; Class System\RaceStone.cs" />
+    <Compile Include="Race &amp; Class System\SCraftGump.cs" />
     <Compile Include="Services\HolidaySettings.cs" />
     <Compile Include="Services\MaginciaBazaar\BazaarAddOns\Alchemist2BazaarAddon.cs">
       <SubType>Code</SubType>
@@ -11491,6 +11496,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Release\Scripts.csprojResolveAssemblyReference.cache" />
+    <None Include="Output\Scripts.CS.hash" />
     <None Include="Services\XmlSpawner\XMLSpawner Extras\XmlQuestNPC\Abbott.npc" />
     <None Include="Services\XmlSpawner\XMLSpawner Extras\XmlQuestNPC\Costello.npc" />
     <None Include="Services\XmlSpawner\XMLSpawner Extras\XmlQuestNPC\Dracondar.npc" />
@@ -11514,6 +11522,15 @@
     <None Include="Services\XmlSpawner\XMLSpawner Support\Stealing.cs.2.4" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="obj\Release\Scripts.CS.dll" />
+    <Content Include="obj\Release\Scripts.CS.pdb" />
+    <Content Include="obj\Release\Scripts.csproj.FileListAbsolute.txt" />
+    <Content Include="Output\Scripts.CS.dll" />
+    <Content Include="Output\Scripts.CS.pdb" />
+    <Content Include="Output\ServUO.exe" />
+    <Content Include="Output\ServUO.pdb" />
+    <Content Include="Output\Ultima.dll" />
+    <Content Include="Output\Ultima.pdb" />
     <Content Include="Services\RunicReforging\ReadMe.txt" />
     <Content Include="Services\XmlSpawner\XMLSpawner Extras\SpawnerConfigs\xmlspawner.xml" />
     <Content Include="Services\XmlSpawner\XMLSpawner Extras\Spawns\attachtest1.xml" />
@@ -11621,7 +11638,9 @@
     <Content Include="Services\XmlSpawner\XMLSpawner Support\xmlspawner2doc.txt" />
     <Content Include="Spells\Mysticism\Blank.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="obj\Release\TempPE\" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
     <VisualStudio AllowExistingFolder="true" />
